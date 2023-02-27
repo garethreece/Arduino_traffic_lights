@@ -69,10 +69,11 @@ void trafficLight(int redTime, int greenTime) {
 
 void loop() {
   trafficLight(5000, 10000); // Direction 1
-  delay(1000);
   trafficLight(10000, 5000); // Direction 2
-  delay(1000);
 }
 
+// Why do you think one loop is longer than the other?
 // Critically review your code and arduino setup.
-// Highlight three things that went well and offer three improvements.
+// Highlight three things that went well and offer three improvements
+// What is wrong with this traffic light system?
+// Extension - program this so it works more like a UK traffic light systems
